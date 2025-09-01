@@ -13,7 +13,7 @@ headers=[
 ["column1","column2","column3"]
 ]
 
-app.route('/status')
+app.route('/')
 
 def index():
      table=tabulate(data,headers,tablefmt="grid");
